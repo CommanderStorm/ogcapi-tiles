@@ -1,7 +1,11 @@
 {
    "type" : "string",
-   "enum" : [
-      "NaturalEarth:cultural:ne_10m_admin_0_countries",
-      "NaturalEarth:physical:bathymetry"
-   ]
+   "examples" : {
+      "NaturalEarth:cultural:ne_10m_admin_0_countries" : {
+         "value" : "NaturalEarth:cultural:ne_10m_admin_0_countries"
+      },
+      "NaturalEarth:physical:bathymetry" : {
+         "value" : "NaturalEarth:physical:bathymetry"
+      }
+   }
 }

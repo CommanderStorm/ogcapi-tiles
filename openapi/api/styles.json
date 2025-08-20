@@ -1,6 +1,8 @@
 {
    "type" : "string",
-   "enum" : [
-      "default"
-   ]
+   "examples" : {
+      "default" : {
+         "value" : "default"
+      }
+   }
 }

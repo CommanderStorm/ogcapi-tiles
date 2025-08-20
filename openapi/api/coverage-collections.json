@@ -1,8 +1,14 @@
 {
    "type" : "string",
-   "enum" : [
-      "SRTM_ViewFinderPanorama",
-      "HRDEM-Ottawa",
-      "HRDEM-RedRiver"
-   ]
+   "examples" : {
+      "SRTM_ViewFinderPanorama" : {
+         "value" : "SRTM_ViewFinderPanorama"
+      },
+      "HRDEM-Ottawa" : {
+         "value" : "HRDEM-Ottawa"
+      },
+      "HRDEM-RedRiver" : {
+         "value" : "HRDEM-RedRiver"
+      }
+   }
 }
