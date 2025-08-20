@@ -46,7 +46,7 @@ include::recommendations/core/PER_tc-tilematrixsetid-definition.adoc[]
 
 A successful response to a tile GET operation will be consistent with the media type of the resource requested. This Standard does not impose any media type or file format. Examples of common media types are:
 
-* For features, the media type of the response may be GeoJSON (application/geo+json) or Mapbox Vector Tiles (application/vnd.mapbox-vector-tile);
+* For features, the media type of the response may be GeoJSON (application/geo+json), Mapbox Vector Tiles (application/vnd.mapbox-vector-tile) or MapLibre Vector Tiles (application/vnd.maplibre-vector-tile);
 * For coverages, the media type of the response  may be GeoTIFF (image/tiff) or netCDF (application/netcdf or application/x-netcdf);
 * For maps, the media type of the response may be JPEG (image/jpeg) or a PNG (image/png).
 

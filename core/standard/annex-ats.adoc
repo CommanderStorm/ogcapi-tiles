@@ -57,3 +57,6 @@ include::abstract_tests/ATS_class_geojson.adoc[leveloffset=+2]
 
 ==== Conformance Class "Mapbox Vector Tiles"
 include::abstract_tests/ATS_class_mvt.adoc[leveloffset=+2]
+
+==== Conformance Class "MapLibre Vector Tiles"
+include::abstract_tests/ATS_class_mlt.adoc[leveloffset=+2]

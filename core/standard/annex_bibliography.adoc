@@ -17,6 +17,8 @@ This standard is deeply inspired by concepts defined in the following documents 
 
 * [[[Mapbox_Vector_Tiles,8]]], Mapbox: Mapbox Vector Tile specification. https://github.com/mapbox/vector-tile-spec
 
+* [[[MapLibre_Vector_Tiles,8]]], MapLibre: MapLibre Vector Tile specification. https://github.com/maplibre/maplibre-tile-spec
+
 * [[[OGC19-069,9]]], Masó J.: OGC Testbed-15: Maps and Tiles API Engineering Report (OGC 19-069), https://docs.ogc.org/per/19-069.html
 
 * [[[OGC17-041,10]]], Cavazzi S.: OGC Testbed-13: Vector Tiles Engineering Report (OGC 17-041), https://docs.ogc.org/per/17-041.html

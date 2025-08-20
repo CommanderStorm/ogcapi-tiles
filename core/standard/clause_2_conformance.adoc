@@ -118,6 +118,7 @@ The _OGC API — Tiles_ Standard does not mandate a specific encoding or format 
 * <<rc_netcdf,NetCDF>> (http://www.opengis.net/spec/ogcapi-tiles-1/1.0/req/netcdf)
 * <<rc_geojson,GeoJSON>> (http://www.opengis.net/spec/ogcapi-tiles-1/1.0/req/geojson)
 * <<rc_mvt,Mapbox Vector Tiles>> (http://www.opengis.net/spec/ogcapi-tiles-1/1.0/req/mvt)
+* <<rc_mlt,MapLibre Vector Tiles>> (http://www.opengis.net/spec/ogcapi-tiles-1/1.0/req/mlt)
 
 All Tiles API Requirements Classes can be viewed as building blocks that can be implemented in combination with other more fundamental requirements classes that provide support for Web API discovery, conformity and Web API formal definition (e.g., OpenAPI). Possible alternatives for these fundamental Requirements Classes are _OGC API - Common - Part 1: Core_ or _OGC API - Features - Part 1: Core_.
 
@@ -149,4 +150,5 @@ Conformance with this Standard shall be checked using all the relevant tests spe
 |<<rc_netcdf,NetCDF>> |http://www.opengis.net/spec/ogcapi-tiles-1/1.0/conf/netcdf
 |<<rc_geojson,GeoJSON>> |http://www.opengis.net/spec/ogcapi-tiles-1/1.0/conf/geojson
 |<<rc_mvt,Mapbox Vector Tiles>> |http://www.opengis.net/spec/ogcapi-tiles-1/1.0/conf/mvt
+|<<rc_mlt,MapLibre Vector Tiles>> |http://www.opengis.net/spec/ogcapi-tiles-1/1.0/conf/mlt
 |===

@@ -102,10 +102,10 @@ can be described. This schema can be used to describe properties for feature col
 
 ==== Available formats and tile response expectations
 
-The Tiles API Standard, in Requirements classes for tile encodings (<<rc_data_encodings>>), defines six requirements classes for specific encodings for different types of tiled data.
+The Tiles API Standard, in Requirements classes for tile encodings (<<rc_data_encodings>>), defines seven requirements classes for specific encodings for different types of tiled data.
 Additional encodings can be supported using HTTP content negotiation, following conventions specific to those encodings. In this case requirements are expected to fall back to the closest
 encoding defined in Requirements classes for tile encodings (<<rc_data_encodings>>) (e.g., using the GeoTIFF and netCDF conformance class as a model for other coverage data, the JPEG and PNG classes
-for other map tiles encodings, and the Mapbox Vector Tiles or GeoJSON for other vector tiles encodings).
+for other map tiles encodings, and the Mapbox Vector Tiles, Maplibre Vector Tiles or GeoJSON for other vector tiles encodings).
 The informative Annex J of the https://docs.ogc.org/is/17-083r4/17-083r4.html[OGC Two Dimensional Tile Matrix Set and Tile Set Metadata 2.0] Standard also describes a mechanism that can be used to deliver and access 3D content
 using this standard, including 3D models either batched as a single mesh, or as points vector tiles referencing shared 3D models.
 

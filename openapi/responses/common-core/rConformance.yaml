@@ -20,6 +20,7 @@ content:
            - http://www.opengis.net/spec/ogcapi-tiles-1/1.0/conf/jpeg
            - http://www.opengis.net/spec/ogcapi-tiles-1/1.0/conf/png
            - http://www.opengis.net/spec/ogcapi-tiles-1/1.0/conf/mvt
+           - http://www.opengis.net/spec/ogcapi-tiles-1/1.0/conf/mlt
            - http://www.opengis.net/spec/ogcapi-tiles-1/1.0/conf/geojson
            - http://www.opengis.net/spec/ogcapi-tiles-1/1.0/conf/tiff
            - http://www.opengis.net/spec/ogcapi-tiles-1/1.0/conf/netcdf

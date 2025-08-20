@@ -4,6 +4,10 @@ content:
     schema:
       type: string
       format: binary
+  application/vnd.maplibre-vector-tile:
+    schema:
+      type: string
+      format: binary
   application/geo+json:
     schema:
       allOf:

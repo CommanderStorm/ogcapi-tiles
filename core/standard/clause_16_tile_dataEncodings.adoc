@@ -5,7 +5,7 @@ The _OGC API - Tiles_ Standard is designed to support tiling data that can poten
 
 === Overview
 
-This clause specifies six pre-defined requirements classes for encodings to be used by the tiles of the OGC API implementation:
+This clause specifies seven pre-defined requirements classes for encodings to be used by the tiles of the OGC API implementation:
 
 * <<rc_png,PNG>>
 * <<rc_jpeg,JPEG>>
@@ -13,6 +13,7 @@ This clause specifies six pre-defined requirements classes for encodings to be u
 * <<rc_netcdf,NetCDF>>
 * <<rc_geojson,GeoJSON>>
 * <<rc_mvt,Mapbox Vector Tiles>>
+* <<rc_mlt,MapLibre Vector Tiles>>
 
 NOTE: None of the encodings specified here is mandatory and an implementation of this standard may implement none of them but implement other encodings instead.
 
@@ -85,3 +86,14 @@ include::requirements/requirements_class_mvt.adoc[]
 include::requirements/mvt/REQ_content.adoc[]
 
 NOTE: The support of Mapbox Vector Tiles does not make the OGC API dependent on the Mapbox Vector Tile Specification. The support of Mapbox Vector Tiles is completely optional in a Web API. This Requirements Class is completely independent of the version of Mapbox Vector Tiles and future versions.
+
+[[rc_mlt]]
+=== Requirements Class "MapLibre Vector Tiles"
+
+MapLibre Vector Tiles is a format for representing features with geometries in a tile <<MapLibre_Vector_Tiles>>. The MapLibre Vector Tile format uses different columnar encodings depending on the data encoded. The columnar encoding provides a more compact mechanism for serializing structured binary data. A MapLibre Vector Tile represents data based on a square extent within a tile matrix set. However, a MapLibre Vector Tile does not contain information about its bounds and TileMatrixSet. The file format assumes that the client knows the bounds and TileMatrixSet of the file before decoding it.
+
+include::requirements/requirements_class_mlt.adoc[]
+
+include::requirements/mlt/REQ_content.adoc[]
+
+NOTE: The support of MapLibre Vector Tiles does not make the OGC API dependent on the MapLibre Vector Tile Specification. The support of MapLibre Vector Tiles is completely optional in a Web API. This Requirements Class is completely independent of the version of MapLibre Vector Tiles and future versions.

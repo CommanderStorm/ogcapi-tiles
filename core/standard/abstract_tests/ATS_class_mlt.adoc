@@ -1,0 +1,22 @@
+[[ats_mlt]]
+////
+[cols="1,4",width="90%"]
+|===
+2+|*Conformance MapLibre Vector Tiles*
+2+|http://www.opengis.net/spec/ogcapi-tiles-1/1.0/conf/mlt
+|Target type |Web API
+|Requirements class |<<rc_mlt,MapLibre Vector Tiles>>
+|===
+////
+
+[conformance_class]
+====
+[%metadata]
+identifier:: http://www.opengis.net/spec/ogcapi-tiles-1/1.0/conf/mlt
+subject:: <<rc_mlt,Requirements Class "MapLibre Vector Tiles">>
+classification:: Target Type:Web API
+====
+
+=== MapLibre Vector Tiles Encoding
+
+include::mlt/ATS_content.adoc[]
