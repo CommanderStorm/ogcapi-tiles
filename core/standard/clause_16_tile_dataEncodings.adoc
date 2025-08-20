@@ -90,7 +90,7 @@ NOTE: The support of Mapbox Vector Tiles does not make the OGC API dependent on 
 [[rc_mlt]]
 === Requirements Class "MapLibre Vector Tiles"
 
-MapLibre Vector Tiles is a format for representing features with geometries in a tile <<MapLibre_Vector_Tiles>>. The MapLibre Vector Tile format uses different columnar encodings depending on the data encoded. The columnar encoding provides a more compact mechanism for serializing structured binary data. A MapLibre Vector Tile represents data based on a square extent within a tile matrix set. However, a MapLibre Vector Tile does not contain information about its bounds and TileMatrixSet. The file format assumes that the client knows the bounds and TileMatrixSet of the file before decoding it.
+MapLibre Vector Tiles is a format for representing features with geometries in a tile <<MapLibre_Vector_Tiles>>. The MapLibre Vector Tile format uses different columnar encodings depending on the data. The columnar encoding provides a more compact mechanism for serializing structured/unstructured data in binary form. A MapLibre Vector Tile represents data based on a square extent within a tile matrix set. However, a MapLibre Vector Tile does not contain information about its bounds and TileMatrixSet. The file format assumes that the client knows the bounds and TileMatrixSet of the file before decoding it.
 
 include::requirements/requirements_class_mlt.adoc[]
 
